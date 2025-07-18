@@ -24,3 +24,8 @@ export interface FieldReport {
   comments?: string;
   submittedAt: Date;
 }
+
+export interface FAQ {
+  question: string;
+  answer: string;
+}
